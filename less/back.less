@@ -1,0 +1,8 @@
+*{
+  outline: none;
+  -moz-focus-inner {border-color: transparent;} /*for mozilla, border 还存在*/
+  &:focus{
+    outline: none;
+  }
+  ::-moz-focus-inner {border: none;} /*for mozilla*/
+}

@@ -1,0 +1,348 @@
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  height: 0;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
+}
+
+mark {
+  color: #000;
+  background: #ff0;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+fieldset {
+  padding: 0.35em 0.625em 0.75em;
+  margin: 0 2px;
+  border: 1px solid #c0c0c0;
+}
+
+legend {
+  padding: 0;
+  border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.nav_top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 28px;
+  min-width: 960px;
+  font-size: 12px;
+  line-height: 28px;
+  color: #d5d5d5;
+  background-color: #545652;
+}
+
+.nav_top a {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+.nav_top a:hover {
+  color: #fff;
+}
+
+.nav_top .band {
+  float: left;
+  margin-left: 12px;
+}
+
+.nav_top ul {
+  float: left;
+  padding: 0;
+  margin: 0 12px;
+  list-style: none;
+}
+
+.nav_top ul li {
+  display: inline-block;
+  padding: 0 12px;
+  vertical-align: baseline;
+  _zoom: 1;
+}
+
+.nav_top .user_func {
+  float: right;
+}
+
+.nav_top.scroll {
+  height: 28px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sub-nav {
+  position: fixed;
+  top: 28px;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 72px;
+  min-width: 960px;
+  overflow: hidden;
+  background-color: #BDE3F1;
+  _zoom: 1;
+}
+
+.sub-nav .sub_nav_wrap {
+  position: relative;
+  width: 960px;
+  margin: 6px auto;
+  overflow: hidden;
+}
+
+.sub-nav .sub_nav_wrap .logo {
+  float: left;
+  width: 150px;
+  height: 60px;
+  text-indent: -100%;
+  background: url('logo.png') no-repeat;
+}
+
+.sub-nav .sub_nav_wrap .logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sub-nav .sub_nav_wrap .search {
+  float: right;
+  height: 28px;
+  margin: 16px 0;
+}
+
+.sub-nav .sub_nav_wrap .search legend {
+  display: none;
+}
+
+.sub-nav .sub_nav_wrap .search label {
+  position: absolute;
+}
+
+.sub-nav .sub_nav_wrap .search .sub_query {
+  float: left;
+}
+
+.sub-nav .sub_nav_wrap .search .sub_btn {
+  float: left;
+}

@@ -1,0 +1,96 @@
+.nav_top{
+  height: 28px;
+  color: @nav-top-font;
+  background-color: @nav-top-bg;
+  min-width: 960px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  font-size: 12px;
+  line-height: 28px;
+  a{
+    text-decoration: none;
+    color: @nav-top-font;
+    &:hover{
+      color: #fff;
+    }
+  }
+  .band{
+    float: left;
+    margin-left: 12px;
+  }
+  ul{
+    float: left;
+    list-style: none;
+    margin: 0 12px;
+    padding: 0;
+    li{
+      display: inline-block;
+      vertical-align: baseline;
+      padding: 0 12px;
+      _zoom: 1;
+    }
+  }
+  .user_func{
+    float: right;
+  }
+}
+
+.nav_top.scroll{
+  height: 28px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+//子导
+.sub-nav{
+  position: fixed;
+  left: 0;
+  top: 28px;
+  width: 100%;
+  min-width: 960px;
+  overflow: hidden;
+  _zoom: 1;
+  background-color: #BDE3F1;
+  height: 72px;
+  z-index: 1000;
+  .sub_nav_wrap{
+    width: 960px;
+    margin: 6px auto;
+    position: relative;
+    overflow: hidden;
+    .logo{
+      float: left;
+      width: 150px;
+      height: 60px;
+      background: url('logo.png') no-repeat;
+      text-indent: -100%;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+    .search{
+      float: right;
+      height: 28px;
+      margin: 16px 0;
+      legend{
+        display: none;
+      }
+      label{
+        position: absolute;
+      }
+      .sub_query{
+        float: left;
+      }
+      .sub_btn{
+        float: left;
+      }
+    }
+  }
+}
